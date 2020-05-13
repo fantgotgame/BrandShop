@@ -1403,4 +1403,30 @@ details[open] > summary::after {
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
+
+.cards__title {
+  margin-bottom: 44px;
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__basis {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.cards__title__text {
+  color: #222222;
+  font-family: Lato;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 20px;
+}
 /*# sourceMappingURL=style.css.map */
